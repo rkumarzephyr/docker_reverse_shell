@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "enter user id"
+read user
+user_id=$user
+
+echo "enter user password"
+read pass
+user_pass=$pass
+
+if [[ "$user_pass" == "user" ]]; then
+   /bin/bash
+else
+  echo " invalid password"
+  exit
+fi
